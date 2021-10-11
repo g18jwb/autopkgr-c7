@@ -13,7 +13,7 @@
         <key>SEARCH_URL</key>
         <string>https://github.com/PowerShell/PowerShell/releases/tag/v7.1.4</string>
         <key>SEARCH_PATTERN</key>
-        <string>(?P&lt;url&gt;https:\/\/github.com\/PowerShell\/releases\/download\/(?P&lt;v&gt;[0-9.]+)\/powershell-[0-9.]+-osx-x64\.pkg)</string>
+        <string>(https://github\.com/PowerShell/PowerShell/releases/download/v(\d(\.\d)+)/powershell-(\d(\.\d)+)-osx-x64\.pkg)</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.9</string>
